@@ -137,7 +137,7 @@ endif;
 
                         <?php if ($_SESSION['user']['role_id'] == 1 || $_SESSION['user']['role_id'] == 2) : ?>
                         <li><a href="index.php"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a></li>
-                        <li><a href="website_settings.php"><i class="fa fa-dashboard fa-fw"></i> Website Settings</a>
+                        <!-- <li><a href="website_settings.php"><i class="fa fa-dashboard fa-fw"></i> Website Settings</a> -->
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-files-o fa-fw"></i> Customer Details<span
@@ -152,8 +152,8 @@ endif;
                                     class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li><a href="payment_view.php">Payment view</a></li>
-                                <li><a href="booking.php">CheckIn Details</a></li>
-                                <li><a href="booking1.php">CheckOut Details</a></li>
+                                <!-- <li><a href="booking.php">CheckIn Details</a></li> -->
+                                <!-- <li><a href="booking1.php">CheckOut Details</a></li> -->
                             </ul>
                         </li>
 
